@@ -1,6 +1,15 @@
 # Talon-Voice-Exam-Mode
 When the exam mode is active, it prevents many of the community repository commands and actions that you would not want to run accidentally during an exam from running and instead displays an error message if you try to run them.
 
+Please experiment with it before using it during an actual exam to determine that it has disabled everything that you want it to and has not disabled anything that you would want to use. 
+
+Please note that the project does not disable any of the mouse control or eye tracking commands at this time.
+
+# Commands
+exam mode: activates the exam mode.
+exit exam mode: deactivates the exam mode.
+turn off exam mode: deactivates the exam mode.
+disable exam mode: deactivates the exam mode.
 
 # Giving Credit
 This project contains code from the Talon Voice community repository (https://github.com/knausj85/knausj_talon) provided under the following license:
