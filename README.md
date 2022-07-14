@@ -7,8 +7,11 @@ Please note that the project does not disable any of the mouse control or eye tr
 
 # Commands
 exam mode: activates the exam mode.
+
 exit exam mode: deactivates the exam mode.
+
 turn off exam mode: deactivates the exam mode.
+
 disable exam mode: deactivates the exam mode.
 
 # Giving Credit
