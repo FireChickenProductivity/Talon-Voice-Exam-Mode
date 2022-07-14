@@ -14,6 +14,10 @@ turn off exam mode: deactivates the exam mode.
 
 disable exam mode: deactivates the exam mode.
 
+# Exam Mode Compatible Fork Of Community Repository Commands
+I have my own fork of the community repository commands that is the most recent version of the community repository commands that I have verified to be compatible with my exam mode with no modifications. My exam mode might not block features of more recent versions of the community repository that it should.
+The fork is here: https://github.com/FireChickenProductivity/knausj_talon.
+
 # Giving Credit
 This project contains code from the Talon Voice community repository (https://github.com/knausj85/knausj_talon) provided under the following license:
 "MIT License
