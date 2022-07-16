@@ -1,4 +1,3 @@
-# Talon-Voice-Exam-Mode
 When the exam mode is active, it prevents many of the community repository commands and actions that you would not want to run accidentally during an exam from running and instead displays an error message if you try to run them.
 
 Please experiment with it before using it during an actual exam to determine that it has disabled everything that you want it to and has not disabled anything that you would want to use. 
