@@ -30,3 +30,5 @@ show history: user.inform_user_that_some_browser_commands_are_disabled()
 show cache: user.inform_user_that_some_browser_commands_are_disabled()
 tab search: user.inform_user_that_some_browser_commands_are_disabled()
 tab search <user.text>$: user.inform_user_that_some_browser_commands_are_disabled()
+
+profile switch: user.inform_user_that_some_browser_commands_are_disabled()
