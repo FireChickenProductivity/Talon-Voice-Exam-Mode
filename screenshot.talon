@@ -1,4 +1,4 @@
-mode: user.exam_mode
+tag: user.exam_mode
 -
 ^grab screen$:                       user.inform_user_that_screenshot_commands_are_disabled()
 ^grab screen <number_small>$:        user.inform_user_that_screenshot_commands_are_disabled()

@@ -1,6 +1,8 @@
-from talon import Module, actions
+from talon import Module, actions, Context
 module = Module()
-module.mode('exam_mode', desc = 'disables stuff that should not be allowed during exams')
+module.tag('exam_mode', 'disables stuff that should not be allowed during exams')
+context = Context()
+
 @module.action_class
 class Actions:
     def exam_mode_complain_about_action(illegal_action: str):
@@ -39,6 +41,12 @@ class Actions:
     def inform_user_that_screenshot_commands_are_disabled():
         '''Tells the user that they cannot use screenshot commands'''
         inform_user_they_cannot_perform_this_action_in_exam_mode('use screenshot commands')
+    def exam_mode_activate():
+        '''Activates the exam mode'''
+        context.tags = ['user.exam_mode']
+    def exam_mode_deactivate():
+        '''Deactivates the exam mode'''
+        context.tags = []
 def inform_user_they_cannot_perform_this_action_in_exam_mode(illegal_action):
     actions.app.notify(f'You cannot {illegal_action} in exam mode!')
 

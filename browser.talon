@@ -1,5 +1,5 @@
-mode: user.exam_mode
-tag: browser
+tag: user.exam_mode
+and tag: browser
 -
 
 address bar | go address | go url: user.inform_user_that_some_browser_commands_are_disabled()
