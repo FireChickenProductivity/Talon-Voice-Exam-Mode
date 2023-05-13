@@ -1,4 +1,4 @@
-mode: user.exam_mode
+tag: user.exam_mode
 -
 
 cut all: user.inform_user_that_some_generic_editor_commands_are_disabled()
