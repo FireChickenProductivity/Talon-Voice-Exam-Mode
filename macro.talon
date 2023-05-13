@@ -1,4 +1,4 @@
-mode: user.exam_mode
+tag: user.exam_mode
 -
 
 macro record: user.inform_user_that_macro_commands_are_disabled()
