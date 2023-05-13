@@ -1,4 +1,4 @@
-mode: user.exam_mode
+tag: user.exam_mode
 -
 
 desk <number_small>: user.inform_user_that_desktop_commands_are_disabled()
