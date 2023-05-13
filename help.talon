@@ -1,4 +1,4 @@
-mode: user.exam_mode
+tag: user.exam_mode
 -
 
 help alphabet: user.inform_user_that_help_commands_are_disabled()
