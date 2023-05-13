@@ -1,7 +1,7 @@
 from talon import actions, Context
 
 context = Context()
-context.matches = 'mode: user.exam_mode'
+context.matches = 'tag: user.exam_mode'
 
 @context.action_class('user')
 class Actions:
