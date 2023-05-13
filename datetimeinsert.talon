@@ -1,4 +1,4 @@
-mode: user.exam_mode
+tag: user.exam_mode
 -
 
 date insert:
