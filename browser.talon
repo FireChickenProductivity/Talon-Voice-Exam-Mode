@@ -1,5 +1,9 @@
 tag: user.exam_mode
 and tag: browser
+tag: user.exam_mode
+and tag: browser
+and tag: user.tabs
+and app: chrome
 -
 
 address bar | go address | go url: user.inform_user_that_some_browser_commands_are_disabled()

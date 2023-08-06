@@ -8,3 +8,4 @@ tag: user.exam_mode
 ^grab screen clip$:                  user.inform_user_that_screenshot_commands_are_disabled()
 ^grab screen <number_small> clip$:   user.inform_user_that_screenshot_commands_are_disabled()
 ^grab window clip$:                  user.inform_user_that_screenshot_commands_are_disabled()
+^grab selection clip$: user.inform_user_that_screenshot_commands_are_disabled()
