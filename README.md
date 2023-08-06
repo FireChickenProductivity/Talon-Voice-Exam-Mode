@@ -4,6 +4,8 @@ Please experiment with it before using it during an actual exam to determine tha
 
 Please note that the project does not disable any of the mouse control or eye tracking commands at this time.
 
+The exam mode has only been tested with the following web browsers and may not block all desired browser commands with other web browsers: google chrome and Microsoft edge
+
 # Commands
 exam mode: activates the exam mode.
 
