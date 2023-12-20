@@ -20,7 +20,18 @@ class Actions:
     def edit_text_file(path: str):
         '''Overwrites opening files with text editors'''
         actions.user.exam_mode_complain_about_action('open text files')
+
+    def talon_create_app_context(platform_suffix: str = None):
+        '''Overwrites creating new app context files'''
+        actions.user.exam_mode_complain_about_action('create app context files')
     
+    def talon_add_context_clipboard_python():
+        '''Overwrites copying the talon python context to the clipboard'''
+        actions.user.inform_user_that_helper_commands_are_disabled()
+
+    def talon_add_context_clipboard():
+        '''Overwrites copying the python context to the clipboard'''
+        actions.user.inform_user_that_helper_commands_are_disabled()
 
 
 snippet_context = Context()

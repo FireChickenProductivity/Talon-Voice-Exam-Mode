@@ -57,6 +57,10 @@ class Actions:
     def inform_user_that_snippet_commands_are_disabled():
         '''Tells the user that they cannot use snippet commands'''
         inform_user_they_cannot_perform_this_action_in_exam_mode('use snippet commands')
+    
+    def inform_user_that_helper_commands_are_disabled():
+        '''Tells the user that they cannot use helper commands'''
+        inform_user_they_cannot_perform_this_action_in_exam_mode('talon scripting helper commands')
 
     def exam_mode_activate():
         '''Activates the exam mode'''
