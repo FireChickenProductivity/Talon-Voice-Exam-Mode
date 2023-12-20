@@ -1,4 +1,5 @@
 tag: user.exam_mode
 -
 
-running list: app.notify('Some window management features are disabled in exam mode')
+running list: user.inform_user_that_some_window_management_commands_are_disabled()
+window hide: user.inform_user_that_some_window_management_commands_are_disabled()
