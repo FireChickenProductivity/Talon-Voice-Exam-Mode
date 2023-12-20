@@ -21,10 +21,20 @@ class Actions:
         '''Overwrites opening files with text editors'''
         actions.user.exam_mode_complain_about_action('open text files')
     
+
+
+snippet_context = Context()
+snippet_context.matches = r'''
+tag: user.exam_mode
+and tag: user.exam_mode_disable_snippets
+'''
+
+@snippet_context.action_class('user')
+class SnippetActions:
     def insert_snippet(body: str):
         '''Overwrites inserting snippets'''
         actions.user.inform_user_that_snippet_commands_are_disabled()
-    
+
 @context.action_class('app')
 class AppActions:
     def tab_open():

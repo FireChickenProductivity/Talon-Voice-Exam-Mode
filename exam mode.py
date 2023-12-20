@@ -1,6 +1,7 @@
 from talon import Module, actions, Context
 module = Module()
 module.tag('exam_mode', 'disables stuff that should not be allowed during exams')
+module.tag('exam_mode_disable_snippets', 'disables snippets in exam mode')
 context = Context()
 
 @module.action_class
