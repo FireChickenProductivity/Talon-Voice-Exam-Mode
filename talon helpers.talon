@@ -1,7 +1,9 @@
 tag: user.exam_mode
 -
 
-
+talon open debug:
+    user.inform_user_that_helper_commands_are_disabled()
+    
 talon copy name:
     user.inform_user_that_helper_commands_are_disabled()
 

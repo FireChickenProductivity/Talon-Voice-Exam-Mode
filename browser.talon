@@ -7,7 +7,7 @@ and app: chrome
 -
 
 address bar | go address | go url: user.inform_user_that_some_browser_commands_are_disabled()
-address copy | url copy | copy address | copy url: user.inform_user_that_some_browser_commands_are_disabled()
+address copy | copy path | url copy | copy address | copy url: user.inform_user_that_some_browser_commands_are_disabled()
 go page | page focus: user.inform_user_that_some_browser_commands_are_disabled()
 go home: user.inform_user_that_some_browser_commands_are_disabled()
 [go] forward: user.inform_user_that_some_browser_commands_are_disabled()
