@@ -1,7 +1,9 @@
 from talon import actions, Context
 
 context = Context()
-context.matches = 'tag: user.exam_mode'
+context.matches = r'''
+tag: user.exam_mode
+'''
 
 @context.action_class('user')
 class Actions:
@@ -17,7 +19,7 @@ class Actions:
         '''Overwrites using search engines'''
         actions.user.exam_mode_complain_about_action('use search engines')
 
-    def edit_text_file(path: str):
+    def edit_text_file(file: str):
         '''Overwrites opening files with text editors'''
         actions.user.exam_mode_complain_about_action('open text files')
 
@@ -32,6 +34,10 @@ class Actions:
     def talon_add_context_clipboard():
         '''Overwrites copying the python context to the clipboard'''
         actions.user.inform_user_that_helper_commands_are_disabled()
+    
+    def gamepad_tester_toggle():
+        ''''Overwrites opening the gamepad tester'''
+        actions.user.exam_mode_complain_about_action('open the gamepad tester')
 
 
 snippet_context = Context()
