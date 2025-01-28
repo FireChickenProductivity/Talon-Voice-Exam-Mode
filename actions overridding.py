@@ -39,6 +39,9 @@ class Actions:
         ''''Overwrites opening the gamepad tester'''
         actions.user.exam_mode_complain_about_action('open the gamepad tester')
 
+    def check_vocabulary_for_selection():
+        '''Overwrites checking the vocabulary'''
+        actions.user.exam_mode_complain_about_action('check the vocabulary')
 
 snippet_context = Context()
 snippet_context.matches = r'''
