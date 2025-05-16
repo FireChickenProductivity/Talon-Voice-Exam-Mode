@@ -57,4 +57,6 @@ talon dump context:
     
 ^talon copy active app$:
     user.inform_user_that_helper_commands_are_disabled()
-    
+
+talon copy class:
+    user.inform_user_that_helper_commands_are_disabled()
