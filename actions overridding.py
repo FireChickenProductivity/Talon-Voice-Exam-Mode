@@ -42,6 +42,56 @@ class Actions:
     def check_vocabulary_for_selection():
         '''Overwrites checking the vocabulary'''
         actions.user.exam_mode_complain_about_action('check the vocabulary')
+    
+    def help_list(ab: str):
+        """Provides the symbol dictionary"""
+        actions.user.inform_user_that_help_commands_are_disabled()
+
+    def help_formatters(ab: dict, reformat: bool):
+        """Provides the list of formatter keywords"""
+        # what you say is stored as a trigger
+        actions.user.inform_user_that_help_commands_are_disabled()
+
+    def help_context_enabled():
+        """Display contextual command info"""
+        actions.user.inform_user_that_help_commands_are_disabled()
+
+    def help_context():
+        """Display contextual command info"""
+        actions.user.inform_user_that_help_commands_are_disabled()
+
+    def help_search(phrase: str):
+        """Display command info for search phrase"""
+        actions.user.inform_user_that_help_commands_are_disabled()
+
+    def help_selected_context(m: str):
+        """Display command info for selected context"""
+        actions.user.inform_user_that_help_commands_are_disabled()
+
+    def help_next():
+        """Navigates to next page"""
+        actions.user.inform_user_that_help_commands_are_disabled()
+
+    def help_select_index(index: int):
+        """Select the context by a number"""
+        actions.user.inform_user_that_help_commands_are_disabled()
+
+    def help_previous():
+        """Navigates to previous page"""
+        actions.user.inform_user_that_help_commands_are_disabled()
+
+    def help_return():
+        """Returns to the main help window"""
+        actions.user.inform_user_that_help_commands_are_disabled()
+
+    def help_refresh():
+        """Refreshes the help"""
+        actions.user.inform_user_that_help_commands_are_disabled()
+
+    def help_scope_toggle():
+        """Toggle help scope gui"""
+        actions.user.inform_user_that_help_commands_are_disabled()
+
 
 snippet_context = Context()
 snippet_context.matches = r'''
