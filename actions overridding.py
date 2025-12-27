@@ -1,5 +1,7 @@
 from talon import actions, Context
 
+from typing import Optional
+
 context = Context()
 context.matches = r'''
 tag: user.exam_mode
@@ -60,7 +62,7 @@ class Actions:
         """Display contextual command info"""
         actions.user.inform_user_that_help_commands_are_disabled()
 
-    def help_search(phrase: str):
+    def help_search(phrase: str, enabled_only: Optional[bool] = False):
         """Display command info for search phrase"""
         actions.user.inform_user_that_help_commands_are_disabled()
 
@@ -92,6 +94,11 @@ class Actions:
         """Toggle help scope gui"""
         actions.user.inform_user_that_help_commands_are_disabled()
 
+    def desktop_next():
+        actions.user.inform_user_that_desktop_commands_are_disabled()
+
+    def desktop_last():
+        actions.user.inform_user_that_desktop_commands_are_disabled()
 
 snippet_context = Context()
 snippet_context.matches = r'''
