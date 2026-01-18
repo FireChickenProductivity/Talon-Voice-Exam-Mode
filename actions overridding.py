@@ -99,6 +99,9 @@ class Actions:
 
     def desktop_last():
         actions.user.inform_user_that_desktop_commands_are_disabled()
+    
+    def play_pause():
+        actions.user.exam_mode_complain_about_action("Play media")
 
 snippet_context = Context()
 snippet_context.matches = r'''
